@@ -33,7 +33,7 @@ class LoginScreen extends StatelessWidget {
                 const SizedBox(height: 32),
                 ElevatedButton.icon(
                   onPressed: () {
-                    Navigator.pushReplacementNamed(context, '/patient');
+                    Navigator.pushReplacementNamed(context, '/patient_dashboard');
                   },
                   icon: const Icon(Icons.person),
                   label: const Padding(
@@ -44,7 +44,7 @@ class LoginScreen extends StatelessWidget {
                 const SizedBox(height: 16),
                 OutlinedButton.icon(
                   onPressed: () {
-                    Navigator.pushReplacementNamed(context, '/doctor');
+                    Navigator.pushReplacementNamed(context, '/doctor_dashboard');
                   },
                   icon: const Icon(Icons.medical_services),
                   label: const Padding(
